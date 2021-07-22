@@ -1,0 +1,80 @@
+html, body{
+    height: 100%;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    width: 80%;
+    border-radius: 6px;
+    height: 446px;
+    overflow: hidden;
+}
+
+.outer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    padding: 50px 0 0 65px;
+    width: 50%;
+}
+
+.content h1, .number {
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.content h1 {
+    width: 90%;
+    font-size: 2.4em;
+}
+
+.number {
+    font-size: 20px;
+}
+
+.content p {
+    width: 80%;
+    color: hsla(0, 0%, 90%, 0.75);
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.stat-name {
+    color: hsla(0, 0%, 90%, 0.75);
+    font-family: 'Lexend Deca';
+    font-size: 11px;    
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    width: 76%;
+    margin: 0;
+    margin-top: 60px;
+}
+
+.stats span {
+    display: block;
+    margin: 5px 0 5px 0;
+}
+
+.container-img {
+    width: 50%;
+    background: linear-gradient(hsla(277, 64%, 30%, 0.6), hsla(277, 64%, 30%, 0.6)), url("images/image-header-desktop.jpg");
+}
+
+.violet {
+    color:  hsl(277, 64%, 61%);
+}
